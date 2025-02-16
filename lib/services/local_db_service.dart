@@ -50,11 +50,6 @@ class LocalDBService {
     await Hive.box(ConstantValue.dbName).put(DBConstant.KEY_GOOGLE_DIRECTION_API, val);
   }
 
-  String getGoogleDirectionAPIKey() {
-    return Hive.box(ConstantValue.dbName)
-        .get(DBConstant.KEY_GOOGLE_DIRECTION_API, defaultValue: 'AIzaSyDHGOF5m3CIv8ymxZCyAl_PPZaY-lTGA1w');
-  }
-
   String getToken() {
     return Hive.box(ConstantValue.dbName).get(DBConstant.KEY_TOKEN, defaultValue: '');
   }

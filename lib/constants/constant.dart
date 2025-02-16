@@ -8,7 +8,7 @@ const String stgUrl = 'http://bored.api.lewagon.com/api/activity/';
 class ConstantValue {
   static const String dbName = 'localDB';
   static const String sysDbName = 'SysLocalDB';
-  static String googleMapKey = LocalDBService.instance.getGoogleDirectionAPIKey();
+  // static String googleMapKey = LocalDBService.instance.getGoogleDirectionAPIKey();
   static double textBoldSizeGlobal = 15;
   static double textPrimarySizeGlobal = 14;
   static double textSecondarySizeGlobal = 14;
